@@ -1,0 +1,22 @@
+# 编译产物
+*.exe
+*.o
+*.obj
+
+# 注入产物
+*.patched.exe
+*.bak
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+Thumbs.db
+Desktop.ini

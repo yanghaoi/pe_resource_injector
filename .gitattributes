@@ -1,0 +1,10 @@
+# 行尾处理：仓库内统一以 LF 存储，检出时按平台自动转换
+* text=auto
+
+# .bat 必须保持 CRLF：cmd 对 LF-only 行尾的 "^" 续行解析会错位
+*.bat text eol=crlf
+
+# 二进制文件不做行尾转换
+*.exe binary
+*.png binary
+*.ico binary
